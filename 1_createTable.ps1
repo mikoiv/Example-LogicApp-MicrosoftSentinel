@@ -1,8 +1,8 @@
 # Variables for Azure Subscription ID, Log Analytics Resource Group and Log Analytics Workspace name.
-$TenantId = ""
-$SubscriptionId = ""
-$LogAnalyticsRG = ""
-$LogAnalyticsWorkspace = ""
+$TenantId = "[entra tenant id]"
+$SubscriptionId = "[azure subscription id]"
+$LogAnalyticsRG = "[sentinel law rg]"
+$LogAnalyticsWorkspace = "[sentinel law name]"
 
 # Connect to Azure
 Connect-AzAccount -Tenant $TenantId
