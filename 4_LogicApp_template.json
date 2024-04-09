@@ -66,7 +66,7 @@
                         {
                             "name": "DCELogsIngestionURL",
                             "type": "string",
-                            "value": "https://dce-logicappexample-dev-ynpv.westeurope-1.ingest.monitor.azure.com"
+                            "value": "https://[your url].ingest.monitor.azure.com"
                         }
                     ]
                 },
@@ -79,7 +79,7 @@
                         {
                             "name": "DCRImmutableID",
                             "type": "string",
-                            "value": "dcr-602ba97d08f74f81a0761c98bf71ac9f"
+                            "value": "dcr-[your id]"
                         }
                     ]
                 },
